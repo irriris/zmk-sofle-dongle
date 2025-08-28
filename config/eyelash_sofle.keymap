@@ -65,11 +65,11 @@
 
         Upper {
             bindings = <
-&kp F1      &kp F2           &kp F3           &kp F4           &kp F5           &kp F6             &trans              &kp F7     &kp F8     &kp F9      &kp F10    &kp F11           &kp F12
-&trans      &trans           &trans           &trans           &trans           &trans             &trans              &kp PG_UP  &kp HOME   &kp UP      &kp END    &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans      &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans           &trans             &kp C_PREVIOUS      &kp PG_DN  &kp LEFT   &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp C_FAST_FORWARD  &trans     &kp INS    &kp DELETE  &trans     &trans            &trans
-&kp C_MUTE  &trans           &trans           &trans           &trans           &trans             &kp C_PP            &mkp LCLK  &mkp MCLK  &mkp RCLK   &trans     &kp PRINTSCREEN
+&kp F1      &kp F2           &kp F3           &kp F4           &kp F5           &kp F6             &trans              &kp F7     &kp F8        &kp F9     &kp F10        &kp F11           &kp F12
+&trans      &trans           &trans           &trans           &trans           &trans             &trans              &kp HOME   &kp END       &kp PG_UP  &kp PAGE_DOWN  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans      &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans           &trans             &kp C_PREVIOUS      &kp LEFT   &kp UP_ARROW  &kp DOWN   &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp C_FAST_FORWARD  &kp INS    &kp DELETE    &trans     &trans         &trans            &trans
+&kp C_MUTE  &trans           &trans           &trans           &trans           &trans             &kp C_PP            &mkp LCLK  &mkp MCLK     &mkp RCLK  &trans         &kp PRINTSCREEN
             >;
 
             display-name = "Upper";
