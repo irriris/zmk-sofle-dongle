@@ -60,11 +60,11 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Upper}
   - {t: '[', s: '{'}
   - $$mdi:mouse-left-click-outline$$
+  - {t: ']', s: '}'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: ']', h: Lower, s: '}'}
+  - {t: '=', h: Lower, s: +}
   Upper:
   - F1
   - F2
