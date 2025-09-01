@@ -128,7 +128,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - INT RO
   - PRINTSCREEN
   Lower:
   - {t: '$$mdi:transfer$$', type: trans}
