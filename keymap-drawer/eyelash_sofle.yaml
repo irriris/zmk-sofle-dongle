@@ -52,18 +52,18 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-space$$', h: Upper}
-  - {t: '[', s: '{'}
+  - Upper
+  - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: ']', s: '}'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '-', s: _}
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
+  - {t: ']', h: '$$mdi:apple-keyboard-option$$', s: '}'}
   - {t: '=', h: Lower, s: +}
   Upper:
   - F1
