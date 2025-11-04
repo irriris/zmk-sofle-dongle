@@ -128,7 +128,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - JP UNDERSCORE
+  - Sft+0x87
   - PRINTSCREEN
   Lower:
   - {t: '$$mdi:transfer$$', type: trans}
