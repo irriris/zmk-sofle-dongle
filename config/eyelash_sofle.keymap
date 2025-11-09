@@ -49,49 +49,49 @@
     combos {
         compatible = "zmk,combos";
 
-        LeftBrace {
+        kp_LeftBrace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <30 31>;
+            key-positions = <30 29>;
         };
 
-        LeftBracket {
+        kp_LeftBracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <43 44>;
+            key-positions = <43 42>;
         };
 
-        RightParenthesis {
+        kp_RightParenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
         };
 
-        RightBrace {
+        kp_RightBrace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <33 34>;
+            key-positions = <34 35>;
         };
 
-        RightBracket {
+        kp_RightBracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <46 47>;
+            key-positions = <47 48>;
         };
 
-        Euqal {
+        kp_Equal {
             bindings = <&kp EQUAL>;
-            key-positions = <48 49>;
+            key-positions = <35 36>;
         };
 
-        Plus {
+        kp_Plus {
             bindings = <&kp PLUS>;
-            key-positions = <35 36>;
+            key-positions = <48 49>;
         };
 
         mo_CONFIG {
             bindings = <&mo 3>;
-            key-positions = <56 59>;
+            key-positions = <59 57>;
         };
 
-        leftparen {
+        kp_LeftParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <17 18>;
+            key-positions = <17 16>;
         };
     };
 
