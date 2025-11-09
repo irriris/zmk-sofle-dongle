@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   Base:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -128,7 +128,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - Sft+0x87
+  - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   Lower:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,3 +195,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+combos:
+- p: [17, 18, 17, 18]
+  k: (
+- p: [30, 31]
+  k: '{'
+- p: [43, 44]
+  k: {t: '[', s: '{'}
+- p: [20, 21]
+  k: )
+- p: [33, 34]
+  k: '}'
+- p: [46, 47]
+  k: {t: ']', s: '}'}
