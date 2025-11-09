@@ -252,8 +252,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -261,21 +261,21 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [30, 31]
+- p: [30, 29]
   k: '{'
-- p: [43, 44]
+- p: [43, 42]
   k: {t: '[', s: '{'}
-- p: [20, 21]
+- p: [21, 22]
   k: )
-- p: [33, 34]
+- p: [34, 35]
   k: '}'
-- p: [46, 47]
+- p: [47, 48]
   k: {t: ']', s: '}'}
-- p: [48, 49]
-  k: {t: '=', s: +}
 - p: [35, 36]
+  k: {t: '=', s: +}
+- p: [48, 49]
   k: +
-- p: [56, 59]
+- p: [59, 57]
   k: Config
-- p: [17, 18]
+- p: [17, 16]
   k: (
