@@ -49,11 +49,6 @@
     combos {
         compatible = "zmk,combos";
 
-        LeftParenthesis {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <17 18 17 18>;
-        };
-
         LeftBrace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <30 31>;
@@ -92,6 +87,11 @@
         mo_CONFIG {
             bindings = <&mo 3>;
             key-positions = <60 56>;
+        };
+
+        leftparen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <17 18>;
         };
     };
 
