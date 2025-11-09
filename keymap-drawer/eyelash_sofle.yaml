@@ -261,8 +261,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [17, 18, 17, 18]
-  k: (
 - p: [30, 31]
   k: '{'
 - p: [43, 44]
@@ -279,3 +277,5 @@ combos:
   k: +
 - p: [60, 56]
   k: CONFIG
+- p: [17, 18]
+  k: (
