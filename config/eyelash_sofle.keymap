@@ -94,6 +94,11 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <17 16>;
         };
+
+        kp_GuiAndSpace {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <14 15>;
+        };
     };
 
     keymap {
