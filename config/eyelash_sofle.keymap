@@ -127,11 +127,11 @@
 
         LOWER {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans         &trans        &trans                &trans                 &trans
-&trans  &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR    &kp PERCENT     &trans  &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans         &trans        &trans                &trans                 &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans         &trans        &trans                &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_UP     &trans        &trans         &trans        &trans                &trans                 &trans
+&trans  &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR    &kp PERCENT     &mmv MOVE_DOWN   &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_LEFT   &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans        &trans         &trans        &trans                &trans                 &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans        &trans         &trans        &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -140,11 +140,11 @@
 
         CONFIG {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &out OUT_USB  &out OUT_BLE
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans        &trans          &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans        &trans          &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans        &trans          &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &out OUT_USB  &out OUT_BLE
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans          &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans          &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans          &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
