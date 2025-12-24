@@ -62,7 +62,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - Lower
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Upper:
@@ -127,7 +127,7 @@ layers:
   - $$mdi:play-pause$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Lower:
