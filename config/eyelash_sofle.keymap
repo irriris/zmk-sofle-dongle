@@ -99,6 +99,21 @@
             bindings = <&kp LG(SPACE)>;
             key-positions = <14 15>;
         };
+
+        kp_Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <30 28>;
+        };
+
+        kp_Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <43 41>;
+        };
+
+        kp_Cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <15 17>;
+        };
     };
 
     keymap {
