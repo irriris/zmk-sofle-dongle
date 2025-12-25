@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: \, h: RIGHT GUI, s: '|'}
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
   - A
   - S
@@ -79,25 +79,25 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - END
-  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PREVIOUS
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -331,7 +331,7 @@ combos:
 - p: [43, 42]
   k: {t: '[', s: '{'}
 - p: [21, 22]
-  k: )
+  k: KP RIGHT PARENTHESIS
 - p: [34, 35]
   k: '}'
 - p: [47, 48]
@@ -343,6 +343,6 @@ combos:
 - p: [59, 57]
   k: Conf
 - p: [17, 16]
-  k: (
+  k: KP LEFT PARENTHESIS
 - p: [14, 15]
   k: Gui+$$mdi:keyboard-space$$
