@@ -346,3 +346,9 @@ combos:
   k: KP LEFT PARENTHESIS
 - p: [14, 15]
   k: Gui+$$mdi:keyboard-space$$
+- p: [30, 28]
+  k: Ctl+C
+- p: [43, 41]
+  k: Ctl+V
+- p: [15, 17]
+  k: Ctl+X
