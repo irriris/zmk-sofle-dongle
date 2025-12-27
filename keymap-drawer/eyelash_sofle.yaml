@@ -331,7 +331,7 @@ combos:
 - p: [43, 42]
   k: {t: '[', s: '{'}
 - p: [21, 22]
-  k: KP RIGHT PARENTHESIS
+  k: )
 - p: [34, 35]
   k: '}'
 - p: [47, 48]
@@ -343,7 +343,7 @@ combos:
 - p: [59, 57]
   k: Conf
 - p: [17, 16]
-  k: KP LEFT PARENTHESIS
+  k: (
 - p: [14, 15]
   k: Gui+$$mdi:keyboard-space$$
 - p: [30, 28]
