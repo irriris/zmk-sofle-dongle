@@ -88,76 +88,97 @@
         kp_Apostrophe {
             bindings = <&kp APOSTROPHE>;
             key-positions = <49 50>;
+            layers = <0>;
         };
 
         kp_DoubleQuote {
             bindings = <&kp LS(APOSTROPHE)>;
             key-positions = <36 37>;
+            layers = <0>;
         };
 
         kp_LeftParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         kp_LeftBrace {
             bindings = <&kp LS(LEFT_BRACKET)>;
             key-positions = <29 30>;
+            layers = <0>;
         };
 
         kp_LeftBracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <42 43>;
+            layers = <0>;
         };
 
         kp_RightParenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <21 22>;
+            layers = <0>;
         };
 
         kp_RightBrace {
             bindings = <&kp LS(RIGHT_BRACKET)>;
             key-positions = <34 35>;
+            layers = <0>;
         };
 
         kp_RightBracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <47 48>;
+            layers = <0>;
         };
 
         kp_Equal {
             bindings = <&kp EQUAL>;
             key-positions = <48 49>;
+            layers = <0>;
         };
 
         kp_Plus {
             bindings = <&kp RS(EQUAL)>;
             key-positions = <35 36>;
+            layers = <0>;
         };
 
         kp_Minus {
             bindings = <&kp MINUS>;
             key-positions = <46 47>;
+            layers = <0>;
         };
 
         kp_Underscore {
             bindings = <&kp RS(MINUS)>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         kp_Backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <48 50>;
+            layers = <0>;
         };
 
         kp_Pipe {
             bindings = <&kp RS(BACKSLASH)>;
             key-positions = <35 37>;
+            layers = <0>;
         };
 
         CapsWord {
             bindings = <&caps_word>;
             key-positions = <30 34>;
+            layers = <0>;
+        };
+
+        kp_JisUnderscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <33 34>;
+            layers = <1>;
         };
     };
 
