@@ -176,7 +176,7 @@
         };
 
         kp_JisUnderscore {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp JP_UNDERSCORE>;
             key-positions = <33 34>;
             layers = <1>;
         };
