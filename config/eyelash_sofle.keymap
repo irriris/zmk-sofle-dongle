@@ -35,6 +35,10 @@
     acceleration-exponent = <1>;
 };
 
+&mt {
+    tapping-term-ms = <280>;
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
