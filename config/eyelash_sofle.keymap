@@ -204,11 +204,11 @@
 
         Numpad {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans        &trans        &trans        &trans        &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &trans  &trans
-&trans  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans        &bt BT_CLR_ALL    &trans  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans  &trans        &trans        &out OUT_BLE  &out OUT_USB  &out OUT_TOG      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans            &trans  &trans        &trans        &trans        &trans        &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &mmv MOVE_UP     &trans        &trans        &trans        &trans        &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &mmv MOVE_DOWN   &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &trans  &trans
+&trans      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans        &bt BT_CLR_ALL    &mmv MOVE_LEFT   &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&trans      &trans        &trans        &out OUT_BLE  &out OUT_USB  &out OUT_TOG      &mmv MOVE_RIGHT  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&kp C_MUTE  &trans        &trans        &trans        &trans        &trans            &mkp LCLK        &trans        &trans        &trans        &trans        &trans
             >;
 
             label = "numpad";
