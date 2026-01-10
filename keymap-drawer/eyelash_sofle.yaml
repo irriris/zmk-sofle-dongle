@@ -272,31 +272,49 @@ combos:
   l: [Base]
 - p: [49, 50]
   k: <
+  l: [Base]
 - p: [36, 37]
   k: Sft+<
+  l: [Base]
 - p: [16, 17]
   k: (
+  l: [Base]
 - p: [29, 30]
   k: Sft+[
+  l: [Base]
 - p: [42, 43]
   k: {t: '[', s: '{'}
+  l: [Base]
 - p: [21, 22]
   k: )
+  l: [Base]
 - p: [34, 35]
   k: Sft+]
+  l: [Base]
 - p: [47, 48]
   k: {t: ']', s: '}'}
+  l: [Base]
 - p: [48, 49]
   k: {t: '=', s: +}
+  l: [Base]
 - p: [35, 36]
   k: Sft+=
+  l: [Base]
 - p: [46, 47]
   k: {t: '-', s: _}
+  l: [Base]
 - p: [33, 34]
   k: Sft+-
+  l: [Base]
 - p: [48, 50]
   k: {t: \, s: '|'}
+  l: [Base]
 - p: [35, 37]
   k: Sft+\
+  l: [Base]
 - p: [30, 34]
   k: $$mdi:alpha-w-box$$
+  l: [Base]
+- p: [33, 34]
+  k: _
+  l: [Nav]
