@@ -316,5 +316,5 @@ combos:
   k: $$mdi:alpha-w-box$$
   l: [Base]
 - p: [33, 34]
-  k: _
+  k: Sft+0x87
   l: [Nav]
