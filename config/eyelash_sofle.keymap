@@ -221,7 +221,7 @@
             label = "RSym";
         };
 
-        Numpad {
+        Num {
             bindings = <
 &trans  &trans        &trans        &trans        &trans        &trans            &trans              &trans        &trans        &trans        &trans        &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans            &trans              &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &trans  &trans
@@ -230,7 +230,7 @@
 &trans  &trans        &trans        &trans        &trans        &trans            &kp C_PLAY_PAUSE    &trans        &trans        &trans        &trans        &trans
             >;
 
-            label = "numpad";
+            label = "Num";
         };
     };
 };
