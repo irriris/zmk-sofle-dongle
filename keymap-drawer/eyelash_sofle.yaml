@@ -45,7 +45,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: numpad}
+  - {t: B, h: Num}
   - $$mdi:arrow-right-bold$$
   - N
   - M
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  numpad:
+  Num:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
